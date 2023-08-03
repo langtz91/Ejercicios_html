@@ -5,9 +5,20 @@
     <title>Mi primera web</title>
 </head>
 <body>
-    <form>
+    <form action="/formulario" method="GET">
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <input value="Isabela" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input value="Sofia" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br><br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="20" rows="5" id="comentario" placeholder="Ingrese comentario" name=""comentario></textarea>
+        <br>
+        <button type="button">Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
     </form>
     <br>
     <button> Boton de Jhoan</button>
